@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(45deg, #0b0a0c 0%, #0f0f2e 100%); /*  Градиент   */
+    background: linear-gradient(45deg, #0b0a0c 10%, #0f0f2e 100%); /*  Градиент   */
     min-height: 100vh;
     margin: 0;
     padding-top: 90px;
@@ -49,14 +49,14 @@ body {
     display: flex;
     align-items: center;
     gap: 6px;
-    background-color:rgba(82, 73, 206, 0.363);
+    background-color: transparent;
     border: 1px solid #3A3A45;
     color: #ffffff;
     padding: 12px 24px;
     border-radius: 999px;
-    font-size: 20px;
+    font-family: 'Intel One Mono', monospace;
+    font-size: 14px;
     cursor: pointer;
-    text-decoration: none; /* убирает подчёркивание, характерное для ссылок */
   }
 
   .logo {
@@ -196,14 +196,14 @@ body {
 
   .project-title {
     color: #ffffff;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
     margin: 16px 20px 8px;
   }
   
   .project-desc {
     color: #9A9AA5;
-    font-size: 18px;
+    font-size: 13px;
     line-height: 1.5;
     margin: 0 20px 20px;
   }
