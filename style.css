@@ -89,6 +89,7 @@ body {
   .card-title {
     color: #ffffff;
     font-size: 32px;
+    font-weight: 400;
     margin-bottom: 16px;
     text-align: center;
     font-family: 'Intel One Mono', monospace;
