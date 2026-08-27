@@ -1,5 +1,9 @@
 body {
-    background: linear-gradient(45deg, #0b0a0c 10%, #0f0f2e 100%); /*  Градиент   */
+    background: 
+    radial-gradient(circle at 15% 5%, rgba(135, 126, 255, 0.17), transparent 30%),
+    radial-gradient(circle at 90% 18%, rgba(22, 155, 133, 0.336), transparent 26%),
+    linear-gradient(45deg, #0b0a0c 10%, #171747 100%);
+
     min-height: 100vh;
     margin: 0;
     padding-top: 90px;
