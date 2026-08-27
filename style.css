@@ -37,11 +37,11 @@ body {
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    padding: 4px 24px;
+    padding: 12px 16px;
     background-color: rgba(10, 10, 15, 0.13);
     backdrop-filter: blur(10px);
     border: 2px solid #e2e2e2;
-    border-radius: 999px;
+    border-radius: 18px;
     z-index: 100;
     width: 700px;
     max-width: calc(100% - 40px);
@@ -52,15 +52,46 @@ body {
     display: flex;
     align-items: center;
     gap: 6px;
-    background-color:rgba(82, 73, 206, 0.363);
+    background-color:rgba(82, 73, 206, 0.363); 
     border: 1px solid #3A3A45;
     color: #ffffff;
     padding: 12px 24px;
     border-radius: 999px;
     font-size: 20px;
     cursor: pointer;
-    text-decoration: none; /* убирает подчёркивание, характерное для ссылок */
+    text-decoration: none; 
   }
+
+/* ====================================================== */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    border: 1px solid transparent; 
+    border-radius: 12px;
+    padding: 12px 18px;
+    font-weight: 750;
+    transition: .22s ease;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none; 
+
+    
+  }
+
+  .btn-primary {
+    color: white;
+    background: linear-gradient(135deg, #7b72fd, #6a8dff);
+    box-shadow: 0 12px 35px rgba(123, 114, 255, 0.418);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 16px 42px rgba(123, 114, 255, 0.664);
+    }
+
+/* ====================================================== */
 
   .logo {
     color: #ffffff;
