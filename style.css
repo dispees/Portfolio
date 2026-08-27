@@ -1,5 +1,13 @@
 body {
-    background: linear-gradient(40deg, #040405 10%, #0A0A1D 100%);
+    background: linear-gradient(45deg, #0b0a0c 0%, #0f0f2e 100%); /* Градиент   */
     min-height: 100vh;
     margin: 0;
+  }
+
+  .text-primary {
+    color: #ffffff;
+  }
+  
+  .text-secondary {
+    color: #C5C1C1;
   }
