@@ -3,11 +3,23 @@ body {
     min-height: 100vh;
     margin: 0;
   }
+  
+
+
+  .Intel_One_Mono {
+    font-family: 'Intel One Mono', monospace;
+  }
 
   .text-primary {
+    font-family: 'Intel One Mono', monospace;
     color: #ffffff;
+    font-size: 36px;
+    font-weight: 400;
   }
-  
-  .text-secondary {
-    color: #C5C1C1;
+
+  .text-Welcome {
+    font-family: 'Intel One Mono', monospace;
+    color: #848484;
+    font-size: 25px;
+    font-weight: 400;
   }
