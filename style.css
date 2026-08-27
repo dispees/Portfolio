@@ -210,7 +210,7 @@ body {
 
   .projects-grid {
     display: grid;
-    grid-template-columns: repeat(2, 450px);
+    grid-template-columns: repeat(3, 450px);
     justify-content: center;
     gap: 24px;
     width: fit-content;
